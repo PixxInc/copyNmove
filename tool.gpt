@@ -1,0 +1,7 @@
+Name: File Copy and Move Tool
+Description: A tool to copy or move a file from one location to another. It supports copying the file to a new location or moving (cutting and pasting) the file to a new location.
+Param: action: The action to perform. Use "copy" to duplicate the file or "move" to relocate the file. One of these is required.
+Param: source_path: The full path to the source file.
+Param: destination_path: The full path to the destination location.
+
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/file_copy_move.py
